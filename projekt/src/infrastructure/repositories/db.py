@@ -1,0 +1,2 @@
+clubs: list = []
+stadiums: list = []
