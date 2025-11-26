@@ -6,7 +6,7 @@ from typing import Iterable
 from src.core.domain.club import Club, ClubIn
 
 
-class IContinentRepository(ABC):
+class IClubRepository(ABC):
     """An abstract class representing protocol of continent repository."""
 
     @abstractmethod
