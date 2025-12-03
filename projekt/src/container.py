@@ -21,11 +21,11 @@ class Container(DeclarativeContainer):
     stadium_repository = Singleton(StadiumRepository)
     user_repository = Singleton(UserRepository)
 
-    continent_service = Factory(
+    club_service = Factory(
         ClubService,
         repository=club_repository,
     )
-    country_service = Factory(
+    stadium_service = Factory(
         StadiumService,
         repository=stadium_repository,
     )
